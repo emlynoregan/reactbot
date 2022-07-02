@@ -9,8 +9,9 @@ def generate_output(imports, body):
 // imports required by the code below are here
 import * as React from 'react';
 import {{ useState, useEffect }} from 'react';
-import {{ makeStyles }} from '@mui/styles';
-import {{ Button }} from '@mui/material';
+// now import the React DnD library
+// import {{ DraggableItem, DragDropContext, Droppable, Draggable }} from 'react-dnd';
+
 {imports}
 
 export const Main = () => {{

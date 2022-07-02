@@ -1,14 +1,6 @@
-There are three elements on the page. 
-First, there is some text. 
-Center the text horizontally using inline styling.
-Second, there is a button.
-Third, there is a counter.
-The text should initially say "Hello there."
-The button should say "Click me!"
-The counter should be 0.
-When the button is clicked, change the text to "Clicked!"
-When the button is clicked again, change the text back.
-When the button is clicked more than 10 times, show an alert.
-The alert says "Oy, stop that."
-When the alert is shown, also change the button text to red, using
-inline styling.
+The component uses only simple html elements
+
+The component returns the text Today's Weather.
+
+Under this, information about today's weather is displayed. It 
+gets this information from https://api.openweathermap.org
